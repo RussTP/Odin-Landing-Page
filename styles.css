@@ -13,7 +13,32 @@ margin: 0;
 
 }
 
+ul {
+    list-style: none;
+ 
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+
+
+}
+
 .nav-container {
     display: flex;
     background-color: #1F2937;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+display: flex;
+    width: 100px;
+    height: 100px;
 }
