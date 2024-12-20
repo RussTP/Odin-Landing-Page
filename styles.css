@@ -204,7 +204,8 @@ display: flex;
     justify-content: center;
     align-items: center;
     padding: 100px 100px;
-    
+}
+
 .action-box {
     display: flex;
     justify-content: space-around;
@@ -243,7 +244,16 @@ display: flex;
     border: 1px solid #F9FAF8;
     cursor: pointer;
     font-weight: bold;
-
 }
 
+/* Footer */
 
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px;
+
+}
