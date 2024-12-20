@@ -28,6 +28,7 @@ a {
 
 }
 
+
 .nav-container {
     display: flex;
     justify-content: space-around;
@@ -47,17 +48,26 @@ a {
 
 .logo {
 display: flex;
+justify-content: center;
     width: 65px;
     height: 65px;
     padding-top: 5px;
 }
 
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+.logo span {
+    display: inline-block;
+    white-space: nowrap;
+    padding-top: 15px;
+}
+
 .logo-text {
     color: #F9FAF8;
     font-size: 24px;
-    display: flex;
-    align-items: center;
-    width: 100px;
 }
 
 .hero-container {
@@ -94,14 +104,16 @@ display: flex;
     width: 200px;
     height: 50px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .header-image {
     display: flex;
     align-self: flex-end;
+    justify-content: center;
     width: 600px;
     height: 300px;
     margin-left: 100px;
     margin-bottom: 50px;
-    border: 1px solid #E5E7EB;
+    border: 3px solid #E5E7EB;
 }
