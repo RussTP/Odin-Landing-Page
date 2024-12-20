@@ -197,3 +197,53 @@ display: flex;
     font-style: none;
 }
 
+/* Action Time */
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+    
+.action-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2563EB;
+    width: 1000px;
+    height: 120px;
+    border-radius: 20px;
+
+}
+
+.signup-text {
+    display: flex;
+    color: #F9FAF8;
+    font-weight: bold;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product-text {
+    display: flex;
+    color: #F9FAF8;
+    font-weight: lighter;
+}
+
+
+.signup-action-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2563EB;
+    color: #F9FAF8;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #F9FAF8;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+
