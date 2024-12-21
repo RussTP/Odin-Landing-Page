@@ -111,7 +111,7 @@ display: flex;
     font-weight: bold;
 }
 
-.header-image {
+.header-image img{
     display: flex;
     align-self: flex-end;
     justify-content: center;
@@ -119,6 +119,8 @@ display: flex;
     height: 250px;
     margin-bottom: 50px;
     border: 3px solid #E5E7EB;
+    border-radius: 20px;
+    box-sizing: border-box;
 }
 
 /* random information section */
